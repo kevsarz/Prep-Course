@@ -1,0 +1,45 @@
+*{
+    outline: 1px yellow solid;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: crimson;
+}
+
+img {
+   width: 400px; 
+}
+
+.divClass{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    display: block;
+}
+
+#thirdDiv {
+    width: 500px;
+    height: 600px;
+    margin: 0 auto;
+    background-color: crimson;
+    padding: 50px;
+    border: 5px solid darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
